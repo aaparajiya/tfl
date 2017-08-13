@@ -73,6 +73,7 @@ public class MyStepdefs_sd extends BasePage{
     public void iShouldSelectOptionStepFreeToPlatformOnly() {
         testpage.accessibilityPreference_3();
         System.out.println("Stepfree");
+        System.out.println("test");
 //        boolean displayStatus =driver.findElement(By.xpath("/html/body/div[3]/div[4]/div/div[3]/div[2]/form/div/div[3]/div/fieldset/ul[2]/li[2]/fieldset/div/div/div[1]/label[4]")).isDisplayed();
 //        driver.findElement(By.xpath("//*[@id=\"more-journey-options\"]/div/fieldset/ul[2]/li[2]/fieldset/div/div/div[1]/label[3]")).click();
 
@@ -95,7 +96,7 @@ public class MyStepdefs_sd extends BasePage{
     public void iShouldSeeTheCurrenturl(){
         String url = driver.getCurrentUrl();
         System.out.println(url);
-
+// command
         driver.quit();
     }
 }
